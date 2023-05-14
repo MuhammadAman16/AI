@@ -1,3 +1,5 @@
+# to generate a bit string that would contain 15 ones,based on the One Max problem
+
 import random
 from deap import base, creator, tools
 
@@ -24,7 +26,7 @@ def create_toolbox(num_bits):
     return toolbox
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     num_bits = 45
     toolbox = create_toolbox(num_bits)
     random.seed(7)
